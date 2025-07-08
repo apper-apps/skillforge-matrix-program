@@ -1,0 +1,26 @@
+[
+  {
+    "Id": 1,
+    "courseId": "1",
+    "enrolledDate": "2024-01-10T10:00:00Z",
+    "progress": 65,
+    "lastAccessed": "2024-01-22T14:30:00Z",
+    "completedLessons": ["1-1", "1-2", "2-1"]
+  },
+  {
+    "Id": 2,
+    "courseId": "3",
+    "enrolledDate": "2024-01-05T09:15:00Z",
+    "progress": 30,
+    "lastAccessed": "2024-01-20T11:45:00Z",
+    "completedLessons": ["1-1"]
+  },
+  {
+    "Id": 3,
+    "courseId": "4",
+    "enrolledDate": "2024-01-12T16:20:00Z",
+    "progress": 85,
+    "lastAccessed": "2024-01-23T09:10:00Z",
+    "completedLessons": ["1-1"]
+  }
+]

@@ -1,0 +1,313 @@
+[
+  {
+    "Id": 1,
+    "title": "Complete React Developer in 2024",
+    "description": "Master React from basics to advanced concepts including hooks, context, and modern patterns. Build real-world projects and learn industry best practices.",
+    "instructor": {
+      "name": "Sarah Johnson",
+      "bio": "Senior Frontend Developer at Google with 8 years experience",
+      "avatar": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=150&h=150&fit=crop&crop=face"
+    },
+    "price": 89.99,
+    "rating": 4.7,
+    "studentsCount": 12450,
+    "duration": "42 hours",
+    "level": "Intermediate",
+    "category": "Development",
+    "thumbnail": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=400&h=225&fit=crop",
+    "lastUpdated": "2024-01-15",
+    "sections": [
+      {
+        "id": "1",
+        "title": "Getting Started with React",
+        "lessons": [
+          {
+            "id": "1-1",
+            "title": "What is React?",
+            "duration": "12:30",
+            "videoUrl": "https://example.com/video1",
+            "completed": false,
+            "resources": ["slides.pdf", "code-examples.zip"]
+          },
+          {
+            "id": "1-2",
+            "title": "Setting up Development Environment",
+            "duration": "18:45",
+            "videoUrl": "https://example.com/video2",
+            "completed": false,
+            "resources": ["setup-guide.pdf"]
+          }
+        ],
+        "totalDuration": "31:15"
+      },
+      {
+        "id": "2",
+        "title": "React Fundamentals",
+        "lessons": [
+          {
+            "id": "2-1",
+            "title": "Components and JSX",
+            "duration": "25:20",
+            "videoUrl": "https://example.com/video3",
+            "completed": false,
+            "resources": ["jsx-cheatsheet.pdf"]
+          },
+          {
+            "id": "2-2",
+            "title": "Props and State",
+            "duration": "32:10",
+            "videoUrl": "https://example.com/video4",
+            "completed": false,
+            "resources": ["state-examples.zip"]
+          }
+        ],
+        "totalDuration": "57:30"
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "title": "Machine Learning Fundamentals",
+    "description": "Learn the basics of machine learning with Python. Covers supervised and unsupervised learning, neural networks, and practical applications.",
+    "instructor": {
+      "name": "Dr. Michael Chen",
+      "bio": "AI Research Scientist at MIT with 12 years experience",
+      "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face"
+    },
+    "price": 129.99,
+    "rating": 4.8,
+    "studentsCount": 8930,
+    "duration": "56 hours",
+    "level": "Advanced",
+    "category": "Data Science",
+    "thumbnail": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=400&h=225&fit=crop",
+    "lastUpdated": "2024-01-10",
+    "sections": [
+      {
+        "id": "1",
+        "title": "Introduction to ML",
+        "lessons": [
+          {
+            "id": "1-1",
+            "title": "What is Machine Learning?",
+            "duration": "15:30",
+            "videoUrl": "https://example.com/video1",
+            "completed": false,
+            "resources": ["ml-intro.pdf"]
+          }
+        ],
+        "totalDuration": "15:30"
+      }
+    ]
+  },
+  {
+    "Id": 3,
+    "title": "Digital Marketing Mastery",
+    "description": "Complete guide to digital marketing including SEO, social media marketing, email campaigns, and analytics. Perfect for beginners and professionals.",
+    "instructor": {
+      "name": "Emma Rodriguez",
+      "bio": "Marketing Director at HubSpot with 10 years experience",
+      "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face"
+    },
+    "price": 69.99,
+    "rating": 4.6,
+    "studentsCount": 15670,
+    "duration": "38 hours",
+    "level": "Beginner",
+    "category": "Marketing",
+    "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=225&fit=crop",
+    "lastUpdated": "2024-01-20",
+    "sections": [
+      {
+        "id": "1",
+        "title": "Digital Marketing Foundations",
+        "lessons": [
+          {
+            "id": "1-1",
+            "title": "Introduction to Digital Marketing",
+            "duration": "20:15",
+            "videoUrl": "https://example.com/video1",
+            "completed": false,
+            "resources": ["marketing-guide.pdf"]
+          }
+        ],
+        "totalDuration": "20:15"
+      }
+    ]
+  },
+  {
+    "Id": 4,
+    "title": "UI/UX Design Principles",
+    "description": "Learn user interface and user experience design from scratch. Create beautiful, user-friendly designs using industry-standard tools and methodologies.",
+    "instructor": {
+      "name": "James Wilson",
+      "bio": "Lead UX Designer at Adobe with 9 years experience",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face"
+    },
+    "price": 94.99,
+    "rating": 4.9,
+    "studentsCount": 7250,
+    "duration": "45 hours",
+    "level": "Intermediate",
+    "category": "Design",
+    "thumbnail": "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=400&h=225&fit=crop",
+    "lastUpdated": "2024-01-12",
+    "sections": [
+      {
+        "id": "1",
+        "title": "Design Fundamentals",
+        "lessons": [
+          {
+            "id": "1-1",
+            "title": "Introduction to UI/UX",
+            "duration": "18:30",
+            "videoUrl": "https://example.com/video1",
+            "completed": false,
+            "resources": ["design-principles.pdf"]
+          }
+        ],
+        "totalDuration": "18:30"
+      }
+    ]
+  },
+  {
+    "Id": 5,
+    "title": "Python for Data Science",
+    "description": "Master Python programming for data analysis, visualization, and machine learning. Includes pandas, numpy, matplotlib, and scikit-learn.",
+    "instructor": {
+      "name": "Dr. Lisa Park",
+      "bio": "Data Scientist at Netflix with 7 years experience",
+      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&h=150&fit=crop&crop=face"
+    },
+    "price": 109.99,
+    "rating": 4.7,
+    "studentsCount": 11200,
+    "duration": "52 hours",
+    "level": "Intermediate",
+    "category": "Data Science",
+    "thumbnail": "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=400&h=225&fit=crop",
+    "lastUpdated": "2024-01-08",
+    "sections": [
+      {
+        "id": "1",
+        "title": "Python Basics for Data Science",
+        "lessons": [
+          {
+            "id": "1-1",
+            "title": "Python Environment Setup",
+            "duration": "22:45",
+            "videoUrl": "https://example.com/video1",
+            "completed": false,
+            "resources": ["python-setup.pdf"]
+          }
+        ],
+        "totalDuration": "22:45"
+      }
+    ]
+  },
+  {
+    "Id": 6,
+    "title": "Photography Masterclass",
+    "description": "Learn professional photography techniques, composition, lighting, and post-processing. Suitable for beginners and intermediate photographers.",
+    "instructor": {
+      "name": "Alex Thompson",
+      "bio": "Professional photographer with 15 years experience",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face"
+    },
+    "price": 79.99,
+    "rating": 4.5,
+    "studentsCount": 9800,
+    "duration": "35 hours",
+    "level": "Beginner",
+    "category": "Photography",
+    "thumbnail": "https://images.unsplash.com/photo-1606983340126-99ab4feaa64a?w=400&h=225&fit=crop",
+    "lastUpdated": "2024-01-18",
+    "sections": [
+      {
+        "id": "1",
+        "title": "Photography Fundamentals",
+        "lessons": [
+          {
+            "id": "1-1",
+            "title": "Camera Basics",
+            "duration": "28:15",
+            "videoUrl": "https://example.com/video1",
+            "completed": false,
+            "resources": ["camera-guide.pdf"]
+          }
+        ],
+        "totalDuration": "28:15"
+      }
+    ]
+  },
+  {
+    "Id": 7,
+    "title": "Financial Planning & Investment",
+    "description": "Learn personal finance, investment strategies, and wealth building. Covers stocks, bonds, real estate, and retirement planning.",
+    "instructor": {
+      "name": "Robert Davis",
+      "bio": "Certified Financial Planner with 20 years experience",
+      "avatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=150&h=150&fit=crop&crop=face"
+    },
+    "price": 119.99,
+    "rating": 4.8,
+    "studentsCount": 6420,
+    "duration": "48 hours",
+    "level": "Intermediate",
+    "category": "Finance",
+    "thumbnail": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=225&fit=crop",
+    "lastUpdated": "2024-01-14",
+    "sections": [
+      {
+        "id": "1",
+        "title": "Personal Finance Basics",
+        "lessons": [
+          {
+            "id": "1-1",
+            "title": "Budgeting and Saving",
+            "duration": "25:30",
+            "videoUrl": "https://example.com/video1",
+            "completed": false,
+            "resources": ["budgeting-template.xlsx"]
+          }
+        ],
+        "totalDuration": "25:30"
+      }
+    ]
+  },
+  {
+    "Id": 8,
+    "title": "Mobile App Development with Flutter",
+    "description": "Build cross-platform mobile apps using Flutter and Dart. Learn widgets, state management, and app deployment to both iOS and Android.",
+    "instructor": {
+      "name": "Maria Garcia",
+      "bio": "Mobile Developer at Spotify with 6 years experience",
+      "avatar": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=150&h=150&fit=crop&crop=face"
+    },
+    "price": 99.99,
+    "rating": 4.6,
+    "studentsCount": 8650,
+    "duration": "40 hours",
+    "level": "Intermediate",
+    "category": "Development",
+    "thumbnail": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=400&h=225&fit=crop",
+    "lastUpdated": "2024-01-16",
+    "sections": [
+      {
+        "id": "1",
+        "title": "Flutter Fundamentals",
+        "lessons": [
+          {
+            "id": "1-1",
+            "title": "Introduction to Flutter",
+            "duration": "19:45",
+            "videoUrl": "https://example.com/video1",
+            "completed": false,
+            "resources": ["flutter-setup.pdf"]
+          }
+        ],
+        "totalDuration": "19:45"
+      }
+    ]
+  }
+]
