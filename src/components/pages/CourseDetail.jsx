@@ -183,11 +183,14 @@ const CourseDetail = () => {
       case "instructor":
         return (
           <div className="space-y-6">
-            <div className="flex items-start gap-4">
+<div className="flex items-start gap-4">
               <img
                 src={course.instructor.avatar}
                 alt={course.instructor.name}
                 className="w-20 h-20 rounded-full object-cover"
+                onError={(e) => {
+                  e.target.src = 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iODAiIHZpZXdCb3g9IjAgMCA4MCA4MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjgwIiBoZWlnaHQ9IjgwIiByeD0iNDAiIGZpbGw9IiNGM0Y0RjYiLz4KPHN2ZyB4PSIyNCIgeT0iMjAiIHdpZHRoPSIzMiIgaGVpZ2h0PSI0MCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSIjOUM5Q0FBIj4KPHA+dGggZD0iTTEyIDEyYzIuMjEgMCA0LTEuNzkgNC00cy0xLjc5LTQtNC00LTQgMS43OS00IDQgMS43OSA0IDQgNHptMCAyYy0yLjY3IDAtOCAxLjM0LTggNHY2aDZWMjBjMC0uOTQgMC0xLjQ1LjEyLTEuOTFDMTEuNzMgMTYuNTMgMTAuNTQgMTYgMTIgMTZjMS40NiAwIDIuMjcuNTMgMy44OCAxLjA5LjEyLjQ2LjEyLjk3LjEyIDEuOTF2LTR6Ii8+Cjwvc3ZnPgo8L3N2Zz4K';
+                }}
               />
               <div>
                 <h3 className="text-xl font-semibold mb-2">{course.instructor.name}</h3>
@@ -214,10 +217,10 @@ const CourseDetail = () => {
             </div>
             
             <div className="space-y-4">
-              <Card className="p-4">
+<Card className="p-4">
                 <div className="flex items-start gap-3">
                   <img
-                    src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=40&h=40&fit=crop&crop=face"
+                    src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjQwIiBoZWlnaHQ9IjQwIiByeD0iMjAiIGZpbGw9IiNGM0Y0RjYiLz4KPHN2ZyB4PSIxMiIgeT0iMTAiIHdpZHRoPSIxNiIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSIjOUM5Q0FBIj4KPHA+dGggZD0iTTEyIDEyYzIuMjEgMCA0LTEuNzkgNC00cy0xLjc5LTQtNC00LTQgMS43OS00IDQgMS43OSA0IDQgNHptMCAyYy0yLjY3IDAtOCAxLjM0LTggNHY2aDZWMjBjMC0uOTQgMC0xLjQ1LjEyLTEuOTFDMTEuNzMgMTYuNTMgMTAuNTQgMTYgMTIgMTZjMS40NiAwIDIuMjcuNTMgMy44OCAxLjA5LjEyLjQ2LjEyLjk3LjEyIDEuOTF2LTR6Ii8+Cjwvc3ZnPgo8L3N2Zz4K"
                     alt="Student"
                     className="w-10 h-10 rounded-full"
                   />
@@ -403,11 +406,14 @@ const CourseDetail = () => {
             
             <Card className="p-6">
               <h3 className="font-semibold text-lg mb-4">Instructor</h3>
-              <div className="flex items-center gap-3 mb-3">
+<div className="flex items-center gap-3 mb-3">
                 <img
                   src={course.instructor.avatar}
                   alt={course.instructor.name}
                   className="w-12 h-12 rounded-full object-cover"
+                  onError={(e) => {
+                    e.target.src = 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjQ4IiBoZWlnaHQ9IjQ4IiByeD0iMjQiIGZpbGw9IiNGM0Y0RjYiLz4KPHN2ZyB4PSIxNCIgeT0iMTIiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSIjOUM5Q0FBIj4KPHA+dGggZD0iTTEyIDEyYzIuMjEgMCA0LTEuNzkgNC00cy0xLjc5LTQtNC00LTQgMS43OS00IDQgMS43OSA0IDQgNHptMCAyYy0yLjY3IDAtOCAxLjM0LTggNHY2aDZWMjBjMC0uOTQgMC0xLjQ1LjEyLTEuOTFDMTEuNzMgMTYuNTMgMTAuNTQgMTYgMTIgMTZjMS40NiAwIDIuMjcuNTMgMy44OCAxLjA5LjEyLjQ2LjEyLjk3LjEyIDEuOTF2LTR6Ii8+Cjwvc3ZnPgo8L3N2Zz4K';
+                  }}
                 />
                 <div>
                   <h4 className="font-medium">{course.instructor.name}</h4>
